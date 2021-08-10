@@ -18,7 +18,7 @@ describe("Loud Tests", () => {
         loud2.addVolume();
         // Assert
         expect(loud2.greet("Man")).toBe("Hey, Man!!!");
-        // Act
+        //Act
         loud2.addVolume();
         // Assert
         expect(loud2.greet("Man")).toBe("Hey, Man!!!!");
